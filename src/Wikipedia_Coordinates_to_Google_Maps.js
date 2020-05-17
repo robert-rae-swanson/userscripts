@@ -29,6 +29,4 @@
     var googleMapsBaseUrl = 'https://www.google.ca/maps/place/' + latitudeSpan.innerText + longitudeSpan.innerText;
 
     externalGeoHackLinkElement.href = googleMapsBaseUrl;
-    //console.log(externalGeoHackLinkElement);
-
 })();
